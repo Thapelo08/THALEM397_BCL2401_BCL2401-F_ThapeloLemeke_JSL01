@@ -5,7 +5,7 @@ function validateSyntax() {
     
     // Validation logic goes here
 
-    let resultElement = document.getElemenetById("result");
+    let resultElement = document.getElementById("result");
 
     // Placeholder for validation result 
 
