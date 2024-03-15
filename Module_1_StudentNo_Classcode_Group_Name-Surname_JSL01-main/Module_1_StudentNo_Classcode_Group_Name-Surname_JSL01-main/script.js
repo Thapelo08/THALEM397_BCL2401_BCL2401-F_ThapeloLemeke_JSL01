@@ -10,7 +10,7 @@ function validateSyntax() {
     // Placeholder for validation result 
 
     if (isValid) {
-        resultElement.innerHTML = "Valid Syntax." + '<span style="color:#045500;font-size:60px;">&#x25cf;</span>';
+        resultElement.innerHTML = `Valid Syntax.<span style="color:#045500;font-size:60px;">&#x25cf;</span>`;
 
     } else{
         resultElement.innerHTML = "Invalid Syntax." + '<span style="color:#A62C2B;font-size:60px;">&#x25cf;</span>';
